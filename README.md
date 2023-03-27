@@ -1,10 +1,12 @@
 # LumaAI Video to 3D API Testbed
 
+English | [日本語](./README_ja.md)
+
 ## About
 
-LumaAI の Video to 3D API へのリクエストを試す目的で作られた Node.js(TypeScript)プロジェクト。
-手元の mp4 動画ファイルを API へ送信し、NeRF を作成するまでを実行します。
-なお、クレジットを消費するのでご注意ください。
+Node.js (TypeScript) project designed to test requests to LumaAI's Video to 3D API.
+This project sends your mp4 video file to the API and creates a NeRF.
+Please note that it consumes credits.
 
 ## Environments
 
@@ -13,18 +15,18 @@ LumaAI の Video to 3D API へのリクエストを試す目的で作られた N
 
 ## Setup & Usage
 
-プロジェクトルートに`.env`というファイルを作成し、API キーと作成する NeRF プロジェクトのタイトルを設定します。
-以下は`.env`ファイルの例です。
+Create a file named `.env` in the project root and set the API key and the title of the NeRF project to be created.
+The following is an example of an `.env` file.
 
 ```dotenv
 API_KEY=123456-1234-12345...
 TITLE=api-test
 ```
 
-次に`assets`フォルダの中に`video.mp4`という名前で mp4 動画ファイルを配置します。
-この動画ファイルが LumaAI にアップロードされます。
+Next, place an mp4 video file named `video.mp4` in the `assets` folder.
+This video file will be uploaded to LumaAI.
 
-最後に以下のようにコマンドを実行すると、API へのリクエストが始まります。
+Finally, run the following command to initiate a request to the API.
 
 ```sh
 # install dependencies (only first time)
