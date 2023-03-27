@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.88.2",
+    "@types/node-fetch": "^2.6.2",
+    "node-fetch": "^2.6.9",
     "ts-node": "^10.9.1"
   }
 }
