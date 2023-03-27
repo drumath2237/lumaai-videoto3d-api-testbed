@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx ts-node index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node-fetch": "^2.6.2",
+    "dotenv": "^16.0.3",
     "node-fetch": "^2.6.9",
     "ts-node": "^10.9.1"
   }
